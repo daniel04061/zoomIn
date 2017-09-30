@@ -40,7 +40,7 @@ or
 
 Calling **zoomin** on an element it straight forward:
 
-```
+```javascript
 $( '#yourId' ).zoomin({
   text: 'I'm using the zoomin plugin!'
 });
