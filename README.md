@@ -35,3 +35,13 @@ or
 ```
 <script src="yourpath/jquery.zoomin.min.js"></script>
 ```
+
+## Usage
+
+Calling **zoomin** on an element it straight forward:
+
+```
+$( '#yourId' ).zoomin({
+  text: 'I'm using the zoomin plugin!'
+});
+```
