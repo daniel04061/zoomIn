@@ -1,4 +1,4 @@
-# ZoomIn
+# zoomIn
 jQuery Plugin that type/zooms text into a control.
 
 ## Demo
