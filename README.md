@@ -7,6 +7,6 @@ Include the ZoomIn CSS style: jquery.zoomin.css or the mynified version: jquery.
 
 #### Example:
 
-<pre>`<link rel="stylesheet" href="yourpath/jquery.zoomin.css" />`</pre>
+```<link rel="stylesheet" href="yourpath/jquery.zoomin.css" />```
 or
-<pre>`<link rel="stylesheet" href="yourpath/jquery.zoomin.min.css" />`</pre>
+```<link rel="stylesheet" href="yourpath/jquery.zoomin.min.css" />```
