@@ -1,0 +1,46 @@
+<html>
+<head>
+  <title>Zoom-In Demo</title>
+  <link rel="stylesheet" href="css/jquery.zoomin.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/jquery.zoomin.js"></script>
+  <style>
+
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #FFF;
+      color: #000;
+      font-family: Arial;
+      font-size: 2em;
+    }
+
+    #container {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div id="container"></div>
+
+  <script>
+
+    $( '#container' ).zoomin({
+      text: 'The quick brown fox jumped the fence!'
+      , onComplete: function () {
+        console.log('done');
+      }
+    });
+
+  </script>
+
+</body>
+</html>
