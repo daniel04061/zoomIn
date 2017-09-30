@@ -48,8 +48,8 @@ $( "#yourId" ).zoomin({
 
 ZoomIn has the following three options that can be passed to it:
 
-| Name           | Type     | Default                |
-| -------------- | -------- | -----------------------|
-| **text**       | String   | "No text has been set" |
-| **dur**        | Number   | 50 (type speed in ms)  |
-| **onComplete** | Function | null                   |
+| Name           | Type     | Default                 |
+| -------------- | -------- | ----------------------- |
+| **text**       | String   | "No text has been set." |
+| **dur**        | Number   | 50 (type speed in ms)   |
+| **onComplete** | Function | null                    |
