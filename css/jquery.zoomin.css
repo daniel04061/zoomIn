@@ -1,0 +1,66 @@
+.zoom-in {
+  position: relative;
+  display: inline-block;
+  margin-right: 1px;
+  opacity: 0;
+  -o-animation: zoomIn 0.5s forwards;
+  -moz-animation: zoomIn 0.5s forwards;
+  -ms-animation: zoomIn 0.5s forwards;
+  -webkit-animation: zoomIn 0.5s forwards;
+  animation: zoomIn 0.5s forwards;
+}
+
+@-o-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(10.0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+}
+
+@-moz-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(10.0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+}
+
+@-ms-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(10.0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(10.0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(10.0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+}
