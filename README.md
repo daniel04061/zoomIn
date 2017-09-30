@@ -42,7 +42,10 @@ Calling **zoomin** on an element it straight forward:
 
 ```javascript
 $( "#yourId" ).zoomin({
-  text: "I'm using the zoomin plugin!"
+  text: "I'm using the zoomin plugin!",
+  onComplete: function () {
+    console.log( "onComplete Callback Fired!" );
+  }
 });
 ```
 
