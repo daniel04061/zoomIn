@@ -3,7 +3,7 @@ jQuery Plugin that type/zooms text into a control.
 
 ## Simple Demo
 
-You can check out a simple demo [here](http://www.wicked-concept.com/ZoomIn/){:target="_blank"}
+You can check out a simple demo [here](http://www.wicked-concept.com/ZoomIn/)
 
 ## Installation
 
