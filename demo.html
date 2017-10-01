@@ -1,9 +1,9 @@
 <html>
 <head>
   <title>Zoom-In Demo</title>
-  <link rel="stylesheet" href="css/jquery.zoomin.css" />
+  <link rel="stylesheet" href="css/jquery.zoomin.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/jquery.zoomin.js"></script>
+  <script src="js/jquery.zoomin.min.js"></script>
   <style>
 
     body {
@@ -29,15 +29,27 @@
 </head>
 <body>
 
+  <div style="position: absolute; top: 0; left: 0; padding: 20px;">
+    <button id="bn_run">Run Again</button>
+  </div>
+
   <div id="container"></div>
 
   <script>
 
+    var bn = document.getElementById( 'bn_run' );
+    bn.addEventListener( 'click' , function () {
+
+      $( '#container' ).zoomin({
+        text: 'The quick brown fox jumped the fence!',
+        onComplete: function () { console.log('done'); }
+      });
+
+    });
+
     $( '#container' ).zoomin({
-      text: 'The quick brown fox jumped the fence!'
-      , onComplete: function () {
-        console.log('done');
-      }
+      text: 'The quick brown fox jumped the fence!',
+      onComplete: function () { console.log('done'); }
     });
 
   </script>
