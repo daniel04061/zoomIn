@@ -57,5 +57,18 @@ ZoomIn has the following three options that can be passed to it:
 | Name           | Type     | Default                 |
 | -------------- | -------- | ----------------------- |
 | **text**       | String   | "No text has been set." |
-| **dur**        | Number   | 50 (type speed in ms)   |
+| **typeSpeed**  | Number   | 50 (type speed in ms)   |
 | **onComplete** | Function | null                    |
+
+## Modifying the text style.
+
+If you need to modify the style of the text being added, you can do it one of two ways:
+
+1. Modify the ```.zoom-in``` class contained in **jquery.zoomin.css**
+
+2. Add a style to modify the ```<span>``` element of your container.
+```css
+#yourcontainer span {
+  ...
+}
+```
