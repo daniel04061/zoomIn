@@ -1,6 +1,8 @@
 # zoomIn
 A simple jQuery Plugin that type/zooms text into a control.
 
+Download the ```dist``` directory to get everything you need to start using **zoomin**.
+
 ## Demo
 
 You can check out a simple demo [here](http://www.wicked-concept.com/ZoomIn/).
